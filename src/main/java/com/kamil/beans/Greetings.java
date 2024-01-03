@@ -14,7 +14,7 @@ public class Greetings {
 	}
 	
 	@Autowired
-//	@Qualifier(value = "getBeanFromConfig2") // to avoid ambiguity and to enable setter injection
+//	@Qualifier(value = "getBeanFromConfig2") // to avoid ambiguity and to enable setter injection - in case of more than one specyfic bean
 	private LocalDateTime dateTime;
 	
 	public Greetings() {
